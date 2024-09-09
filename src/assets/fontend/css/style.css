@@ -1,0 +1,141 @@
+.slide1 {
+  height: 36px;
+  text-align: center;
+  color: black;
+
+  align-items: center;
+  display: grid;
+}
+
+.slide2 {
+  background-color: #cd3591;
+  height: 36px;
+
+  color: #ffffff;
+}
+
+.header {
+  background-color: #ffffff;
+  padding-left: 7.64vw;
+  padding-right: 7.64vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  border: 1px solid #ff0000;
+  color: #333f48;
+}
+
+.header img {
+  height: 40px;
+}
+
+.header-item ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-weight: 700;
+}
+
+.header-item li {
+  margin: 0 10px;
+  font-size: 0.9411vw;
+}
+
+.account {
+  display: flex;
+  gap: 20px;
+}
+
+.account div {
+  margin: 0;
+  text-align: center;
+}
+
+.account div div {
+  margin: 0;
+  text-align: center;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  padding-top: 10%;
+}
+
+.search-bar {
+  display: inline-block;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+  padding: 5px;
+  max-width: 500px; /* Kích thước tối đa của ô tìm kiếm */
+  margin: 0 auto; /* Căn giữa nếu cần */
+  margin-right: 30px;
+}
+
+.search-input {
+  flex: 1;
+  border: none;
+  padding: 5px 0px 5px 15px;
+  font-size: 13px;
+  padding-left: 10;
+  outline: none;
+}
+
+.search-icon {
+  padding: 1px 0px 0px 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* footer */
+body {
+  line-height: 1.5;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.footer {
+  background-color: rgb(149, 202, 143);
+  padding: 70px 0;
+}
+
+.container {
+  max-width: 1140px;
+  background-color: red;
+  margin: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+ul {
+  list-style: none;
+}
+
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+
+.footer-col h4 {
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-size: 15px;
+  position: relative;
+  padding-bottom: 10px;
+  color: #59585b;
+  position: relative;
+}
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #333f48;
+}
+.bot {
+  background-color: rgb(61, 55, 61);
+}
